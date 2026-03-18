@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Variable Data Type</title>
+</head>
+<body>
+    <script>
+        let name="ABES";
+        console.log(name);
+        console.log(typeof(name));
+
+        //number
+        let myCot=969696069;
+        console.log(myCot);
+        console.log(typeof(myCot));
+        //bool
+        let pass=true;
+        console.log(pass);
+        console.log(typeof(pass));
+        //null
+        let add=null;
+        console.log(add);
+        console.log(typeof(add));
+        //undefined
+        let number;
+        console.log(number);
+        console.log(typeof(number));
+        //symbol
+        //The JS introduced a new primitive data type called symbol.symbol are immutable and are unique
+
+        let v1=Symbol("hello");
+        let v2=Symbol("hello");
+        console.log(v1==v2);
+        console.log(typeof(v1));
+        //Reference or Non-Prrimitive - defined in pair i.e key and value
+        //object{}, function() and array[]
+        let myinfo={
+            name:"Aditya",
+            mobile:9757908503,
+            Ismarried:false,
+            email:"krishna@gmail.com",
+            add:null
+        }
+        //access object's keys
+        console.log(myinfo);
+        console.log(myinfo.email);
+
+
+    </script>
+    
+</body>
+</html>
